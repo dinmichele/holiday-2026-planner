@@ -1,41 +1,16 @@
-# 🚐 Holiday 2026 Planner - Solo & Dog Adventure
+# React + Vite
 
-Questa repository contiene l'applicazione per la pianificazione del tuo viaggio in van dalla Svizzera fino al profondo Sud Italia (Calabria).
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-L'applicazione è stata sviluppata utilizzando **React** e **Vite**, ed integra una mappa interattiva (con **Leaflet**) che mostra le tappe del viaggio e i ristoranti consigliati in zona.
+Currently, two official plugins are available:
 
-## 🚀 Requisiti di sistema
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Per far girare questo progetto su un altro computer, avrai bisogno di installare **Node.js** (ti consigliamo la versione 18.0 o superiore). Puoi scaricarlo da [nodejs.org](https://nodejs.org/).
+## React Compiler
 
-## 💻 Come avviare l'app in locale
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Una volta scaricato o clonato (tramite `git clone`) questo repository sul nuovo computer, segui questi 3 semplici passaggi:
+## Expanding the Oxlint configuration
 
-1. **Entra nella cartella dell'applicazione** aprendo il terminale ed eseguendo:
-   ```bash
-   cd planner-app
-   ```
-
-2. **Installa le dipendenze** (va fatto solo la prima volta):
-   ```bash
-   npm install
-   ```
-
-3. **Avvia il server di sviluppo**:
-   ```bash
-   npm run dev
-   ```
-
-A questo punto vedrai un messaggio nel terminale con un link locale (solitamente `http://localhost:5173/`). Cliccaci sopra o incollalo nel tuo browser per visualizzare l'app!
-
-## 📦 Compilare per la produzione
-
-Se in futuro deciderai di pubblicare l'app su un sito web reale (come Vercel, Netlify o GitHub Pages), puoi creare la versione ottimizzata per la produzione eseguendo:
-```bash
-npm run build
-```
-Il codice pronto da caricare online verrà generato nella cartella `dist`.
-
----
-*Buon viaggio verso la libertà!* 🐾
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
